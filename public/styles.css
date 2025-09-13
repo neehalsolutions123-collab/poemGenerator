@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0e4d7, #f9fafb);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* aligns labels left */
+  width: 320px; /* keeps inputs, selects, and labels aligned */
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* same width for all fields */
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.generate-btn {
+  margin-top: 20px;
+  width: 100%; /* button matches input/select width */
+  padding: 12px 20px;
+  background-color: #6272a4;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generate-btn:hover {
+  background-color: #526191;
+}
+
+.poem-container {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
